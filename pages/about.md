@@ -4,13 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Jekyll Paper is a simple Jekyll theme, and it is aim to helping you to create your own blog by the easiest way.
+_“When intuition conflicts with truth, that’s the best time to learn.”_
+— Chen-Ning Yang (paraphrased)
 
-You can find more information in [Jekyll Paper][jekyll-paper] or [Jekyll Paper for Github][jekyll-paper-github]. If you have any questions or suggestions, you can contact me in [Jekyll Paper Issues][jekyll-paper-issues], [Jekyll Paper for Github Issues][jekyll-paper-github-issues] or send email to [me](mailto:i@ghosind.com). 
+Hi! I am a phd student at UCLA studying deep learning theory. Here is my [website](https://sites.google.com/view/shuang-liang/). 
+Intuition is like the north star of my research journey, and thus I believe that continually fixing intuition is a very important part of _learning_. 
 
-Wish you enjoying your blog life!
+Here, I collect ideas and facts that initially conflicted with my intuition. 
+I suppose keeping these documented would be helpful to me, and hopefully, to you, the reader. 
+I hope you enjoy the content!  
 
-[jekyll-paper]: https://github.com/ghosind/Jekyll-Paper
-[jekyll-paper-github]: https://github.com/ghosind/Jekyll-Paper-Github
-[jekyll-paper-issues]: https://github.com/ghosind/Jekyll-Paper/issues
-[jekyll-paper-github-issues]: https://github.com/ghosind/Jekyll-Paper-Github/issues
+If you would like to discuss more, need clarifiaction, or spot any mistake, 
+please feel free to [reach out](mailto:sllovesmath@gmail.com). 
+
