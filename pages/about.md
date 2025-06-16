@@ -15,9 +15,7 @@ Intuition is like the north star of my research journey, and thus I believe that
 
 <br>
 
-Here, I collect ideas and facts that initially conflicted with my intuition. 
-I suppose keeping these documented would be helpful to me, and hopefully, to you, the reader. 
-I hope you enjoy the content!  
+Here, I collect ideas and facts that conflicted with my intuition, or for which I lacked a good intuition, when I encountered them. I suppose keeping these documented would be helpful to me, and hopefully, to you, the reader. I hope you enjoy the content!
 
 <br>
 
