@@ -9,9 +9,11 @@ Locally compactness characterizes finite dimensionality.
 
 Recall that a TVS is said to be locally compact if $0$ has a compact neighborhood.
 For a Hausdorff TVS $V$, 
+
 $$
 \dim(V)<\infty \Leftrightarrow V \text{ is locally compact}. 
 $$
+
 See a proof by [Tao](https://terrytao.wordpress.com/2011/05/24/locally-compact-topological-vector-spaces/). 
 
 <br>
