@@ -10,4 +10,5 @@ The [Cantor function](https://en.wikipedia.org/wiki/Cantor_function) $f$, define
 * $f'=0$ a.e. 
 * $f(0)=0$, $f(1)=1$, and $f$ is non-decreasing. 
 
+<br>
 The main issue is: it is not absolutely continuous and thus the fundamental theorem of calculus fails. 
