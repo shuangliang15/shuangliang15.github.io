@@ -11,7 +11,7 @@ _“The best time to learn is when truth conflicts with intuition.”_ — Chen-
 <br>
 
 Hi! I am a phd student at UCLA studying deep learning theory ([my personal website](https://sites.google.com/view/shuang-liang/)). 
-Intuition is like the north star of my research journey, and thus I believe that continually fixing intuition is a very important part of _learning_. 
+Intuition is like the north star of my research journey, and thus I believe that continually fixing intuition is a very important part of learning. 
 
 <br>
 
