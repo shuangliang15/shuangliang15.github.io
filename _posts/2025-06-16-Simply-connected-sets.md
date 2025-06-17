@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Simply connected sets"
+title:  "Intersecting two simply connected sets"
 date:   2025-06-16
 categories: [Topology]
 ---
