@@ -5,7 +5,7 @@ date:   2025-06-16
 categories: [Analysis]
 ---
 
-Consider $f(x)=\exp(-\frac{1}{x^2})$ with $f(0)=0$. By induction one can verify $f$ is infinitely differentiable everywhere, and $f^{(k)}(0)=0$ for all $k$. 
+Consider $f(x)=\exp(-\frac{1}{x^2})$ with $f(0)=0$. By induction one can verify $f$ is $C^\infty$, and $f^{(k)}(0)=0$ for all $k$. 
 Therefore, $f$ cannot be approximated its Taylor expansion of any order around $0$.  
 
 <br>
