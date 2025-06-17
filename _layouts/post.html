@@ -15,15 +15,6 @@ layout: default
     {{ content }}
   <br><br>
   <div class="post-info">
-    <div class="post-date">
-      {{ site.data.lang[site.language].post_write_date}}
-      {{ page.date | date: '%Y-%m-%d' }}
-    </div>
-    {% if site.name %}
-    <div class="post-author">
-      {{ site.data.lang[site.language].post_author }}{{ site.name }}
-    </div>
-    {% endif %}
     <div class="post-categories">
       <span>{{ site.data.lang[site.language].post_categories }}</span>
       {% for category in page.categories %}
