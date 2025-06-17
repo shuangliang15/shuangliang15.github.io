@@ -14,7 +14,7 @@ $$
 \dim(V)<\infty \Leftrightarrow V \text{ is locally compact}. 
 $$
 
-See a proof by [Tao](https://terrytao.wordpress.com/2011/05/24/locally-compact-topological-vector-spaces/). 
+See a proof [here](https://terrytao.wordpress.com/2011/05/24/locally-compact-topological-vector-spaces/). 
 
 <br>
 Example: 
