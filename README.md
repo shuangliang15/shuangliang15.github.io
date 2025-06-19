@@ -1,3 +1,3 @@
-# Shuang Liang's Blog
+This is Shuang Liang's personal blog and a fork of [Jekyll Paper for Github](jekyll-paper-github).
 
-This is a personal blog and a fork of [Jekyll Paper for GitHub][jekyll-paper-github].
+[jekyll-paper-github]: https://github.com/ghosind/Jekyll-Paper-Github
