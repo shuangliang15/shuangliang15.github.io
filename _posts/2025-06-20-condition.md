@@ -27,12 +27,9 @@ This quantity monotonically increases as n increases, and tends to 1/2 as n tend
 
 <br>
 
-Intuition: While in the full sample space, the "category" and the gender are independent, in the space conditioned by "at least one is a boy", they are not. 
-Specifically, for the boy-boy case, the new condition is satisfied if either child falls into the category. 
-Thus, the new condition rules out fewer boy-boy families than it does mixed-gender families. Hence, it increases the conditional probability. 
-
+Intuition: For the boy-boy case, the new condition is satisfied if either child falls into the category. Thus, the new condition rules out fewer boy-boy families than it does mixed-gender families. Hence, it increases the conditional probability. 
 
 <br>
 
-In short: Independence is a form of symmetry in the product space, and conditioning can break that symmetry. 
-
+More thoughts: The conditioning "there is at least one boy" breaks the symmetry and produces an asymmetrical sample space. Our brains tend to give incorrect intuition on asymmetric sample spaces. 
+Additionally, the set / event "there is at least one boy who is born on Monday" is again asymmetrical (can not be expressed by intersection of two marginal events). 
