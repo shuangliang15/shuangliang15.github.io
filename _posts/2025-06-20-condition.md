@@ -31,5 +31,5 @@ Intuition: For the boy-boy case, the new condition is satisfied if either child 
 
 <br>
 
-More thoughts: The conditioning "there is at least one boy" breaks the symmetry and produces an asymmetrical sample space. Our brains tend to give incorrect intuition on asymmetric sample spaces. 
-Additionally, the set / event "there is at least one boy who is born on Monday" is again asymmetrical (can not be expressed by intersection of two marginal events). 
+More thoughts: The conditioning "there is at least one boy" breaks the symmetry and produces an asymmetrical sample space. Additionally, the set / event "there is at least one boy who is born on Monday" is again asymmetrical (can not be expressed by intersection / union of two marginal events). 
+
