@@ -24,7 +24,7 @@ In some cases we have the answers:
 
 * $JF$ is non-singular almost everywhere: ....
 
-* $JF$ is non-singular on some positive set: Here is a very simple example: $F(x)=2x$ when $|x|<1$, $F(x)=0$ when $|x|>2$, between 1 and 2 we can use any smooth connections. Then $0$ is repelling in an neiborhood, but its basin of attraction contains $\\{|x|>2\\}. 
+* $JF$ is non-singular on some positive set: Here is a very simple example: let $F(x)=2x$ when $|x|<1$, $F(x)=0$ when $|x|>2$, and interpolates smoothly on $1\leq |x| \leq2$. Then $0$ is locally repelling, but its basin of attraction contains $\\{|x|>2\\}$. 
 
 
 <br>
