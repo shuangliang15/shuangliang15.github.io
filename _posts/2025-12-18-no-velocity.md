@@ -9,7 +9,6 @@ categories: [Learning]
 Consider a general $C^1$, non-negative objective function $L(\theta)$. Use GF to minimize $L$. 
 Clearly, $L(\theta\_t)$ converges to a finte value. 
 
-In some settings, we can deduce that $\theta\_t$ stays in a bounded set (e.g., via conservation laws). 
 Now, it is true that the velocity $\nabla L(\theta_t)$ converges to zero, i.e., the trajectory converges to the set of critical points. 
 
 Proof: 
