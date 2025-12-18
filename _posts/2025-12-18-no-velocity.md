@@ -23,7 +23,7 @@ So, $\|\nabla L_t\|$ converges to zero.
 
 However, it is not always true that $\theta\_t$ converges to a fixed point, which is equivalent to the trajectory length
 
-$$ \int_0^T \\| \partial_t \theta\_t \\| dt$$ 
+$$ \int_0^T \| \partial_t \theta\_t \| dt$$ 
 
 converges to a finite value. 
 
