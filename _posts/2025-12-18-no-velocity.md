@@ -14,10 +14,10 @@ Now, it is true that the velocity $\nabla L(\theta\_t)$ converges to zero, i.e.,
 
 Proof: 
 
-$$L_T-L_0 = \int_0^T \partial_t L_t dt = \int_0^T \langle \nabla L, \partial_t \theta\_t\rangle dt = \int_0^T -\\|\partial_t \theta\_t\\|^2 dt = \int_0^T -\\|\nabla L_t\\|^2 dt$$
+$$L_T-L_0 = \int_0^T \partial_t L_t dt = \int_0^T \langle \nabla L, \partial_t \theta\_t\rangle dt = \int_0^T -\|\partial_t \theta\_t\|^2 dt = \int_0^T -\|\nabla L_t\|^2 dt$$
 
 converges to a finite value. 
-So, $\\|\nabla L_t\\|$ converges to zero. 
+So, $\|\nabla L_t\|$ converges to zero. 
 
 <br>
 
