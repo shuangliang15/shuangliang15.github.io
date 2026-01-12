@@ -21,7 +21,7 @@ An interesting problem: is the basin of attraction $B(x) = \\{ y\colon F^n(y)\to
 
 <br>
 
-An example: let $f$ be the gradient descent update map on a polynomial loss $f(x)=x-\eta \nabla L(x)$. Note in this case, $\det Jf$ is a polynomial; so as long as there is one $x_0$ such that $JF(x_0)$ has full rank, the first condition is satisfied. Meanwhile, $JF=I-\eta \nabla^2 L$ is always symmetry as $L$ is smooth. 
+An example: let $f$ be the gradient descent update map on a polynomial loss $f(x)=x-\eta \nabla L(x)$. Note in this case, $\det Jf$ is a polynomial; so as long as there is one $x_0$ such that $JF(x_0)$ has full rank, the first condition is satisfied. Meanwhile, $JF=I-\eta \nabla^2 L$ is always symmetric since $L$ is smooth. 
 
 <br>
 
