@@ -7,7 +7,7 @@ categories: [Geometry]
 
 Consider a discrete dynamical system $F \colon \mathbb{R}^d\to \mathbb{R}^d$ with a smooth map $F$ and a fixed point $x\in \mathbb{R}^d$. 
 
-Let $\lambda_i$'s be the eigenvalues of the Jacobian of $F$ at $x$. When $\max_{i} |\lambda_i| > 1$, $x$ has repelling directions. I.e., locally $x$ repels orbits along the unstable manifold. 
+Let $\lambda_i$'s be the eigenvalues of the Jacobian of $F$ at $x$. When $\max_{i} \mid \lambda_i \mid > 1$, $x$ has repelling directions. I.e., locally $x$ repels orbits along the unstable manifold. 
 
 <br>
 
