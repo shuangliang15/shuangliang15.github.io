@@ -17,8 +17,7 @@ An interesting problem: is the basin of attraction $B(x) = \\{ y\colon F^n(y)\to
 
 * When $F$'s singular points form a measure zero set, this is (almost) always true. Specifically, [1] provided the following theorem (rephrased)
 
-
-> Consider $f\in C^\infty(\mathbb{R}^d, \mathbb{R}^d) and $S$ consisting of fixed points that have at least one repelling direction. Assume that $\{ \det Jf =0 \}$ has measure zero, and that $Jf$ is symmetric on $S$. Then, $B(S)$ has measure zero. 
+Consider $f\in C^\infty(\mathbb{R}^d, \mathbb{R}^d) and $S$ consisting of fixed points that have at least one repelling direction. Assume that $\\{ \det Jf =0 \\}$ has measure zero, and that $Jf$ is symmetric on $S$. Then, $B(S)$ has measure zero. 
 
 <br>
 
