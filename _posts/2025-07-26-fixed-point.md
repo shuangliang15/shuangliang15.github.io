@@ -1,39 +1,29 @@
 ---
 layout: post
-title:  "Repelling fixed point only attracts null set?"
+title:  "Repelling directions -> measure-zero attraction basin?"
 date:   2025-07-26
 categories: [Geometry]
 ---
 
-Consider a discrete dynamical system $F \colon \mathbb{R}^d\to \mathbb{R}^d$ with a smooth map $F$ and a fixed point $x\in \mathbb{R}^d$. Let 
+Consider a discrete dynamical system $F \colon \mathbb{R}^d\to \mathbb{R}^d$ with a smooth map $F$ and a fixed point $x\in \mathbb{R}^d$. 
 
-$$
-C=\max_{i} |\lambda_i|, \quad c=\min_{i} |\lambda_i|, 
-$$
-
-where $\lambda_i$'s are the eigenvalues of the Jacobian of $F$ at $x$. By the stable manifold theorem <sup>1</sup>, it's clear that:  
-
-* If $1>C$ ($c>1$ resp.), then $x$ attracts (repels resp.) all orbits in a neighborhood. 
-
-* If $C>1$, then locally $x$ repels orbits on the unstable manifold. 
-
-Then an interesting problem is: for the second case, is the basin of attraction $B = \\{ y\colon F^n(y)\to x \\}$ a null set? 
-
-In some cases we have the answers: 
-
-* $JF$ is non-singular everywhere (equivalently,  $F$ is local diffeomorphism): in this case, any orbit that converges to $x$ must enter the local center-stable manifold $W$, whose dimension is less than $d$ and thus a null set, within finite steps (this can be proved using <sup>2</sup>). As $F$ is a submersion everywhere, the preimage of any null set is a null set <sup>3</sup>. Thus, $B\subset \cup_{i}^{\infty} F^{-i}(W)$ is a null set. 
-
-* $JF$ is non-singular almost everywhere: ....
-
-* $JF$ is non-singular on some positive set: Here is a very simple example: let $F(x)=2x$ when $\|x\|<1$, $F(x)=0$ when $\|x\|>2$, and interpolates smoothly on $1\leq \|x\| \leq2$. Then $0$ is locally repelling, but its basin of attraction contains $\\{\|x\|>2\\}$. 
-
+Let $\lambda_i$'s be the eigenvalues of the Jacobian of $F$ at $x$. When $\max_{i} |\lambda_i| > 1$, $x$ has repelling directions. I.e., locally $x$ repels orbits along the unstable manifold. 
 
 <br>
 
+An interesting problem: is the basin of attraction $B(x) = \\{ y\colon F^n(y)\to x \\}$ always a null set? 
 
-[1] Theorem 10.14. Robinson, Clark. Dynamical systems: stability, symbolic dynamics, and chaos. 
+* When $F$'s singular points form a positive measure set, the statement is incorrect. One can just let $F$ be a constant map to $x_0$ on regions far away from $x_0$. 
 
-[2] Theorem III.7. Shub, Michael. Global stability of dynamical systems. 
+* When $F$'s singular points form a measure zero set, this is (almost) always true. Specifically, [1] provided the following theorem (rephrased)
 
-[3] Theorem 1. Ponomarev, Stanislav P. "Submersions and preimages of sets of measure zero." 
 
+> Consider $f\in C^\infty(\mathbb{R}^d, \mathbb{R}^d)$. Assume the set $\{ \det Jf =0 \}$ has measure zero. Let $S$ consist of fixed points that has at least one repelling direction. Assume $Jf$ is symmetric on $S$. Then, $B(S)$ has measure zero. 
+
+<br>
+
+An example: let $f$ be the gradient descent update map on a polynomial loss $f(x)=x-\eta \nabla L(x)$. Note in this case, $\det Jf$ is a polynomial; so as long as there is one $x_0$ such that $JF(x_0)$ has full rank, the first condition is satisfied. Meanwhile, $JF=I-\eta \nabla^2 L$ is always symmetry as $L$ is smooth. 
+
+<br>
+
+[1] Cheridito, Patrick, Arnulf Jentzen, and Florian Rossmannek. "Gradient descent provably escapes saddle points in the training of shallow ReLU networks." Journal of Optimization Theory and Applications 203.3 (2024): 2617-2648. 
