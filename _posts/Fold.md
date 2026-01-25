@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Folding & diffeomorphism"
+date:   2026-01-25
+categories: [Geometry]
+---
+
+Consider a smooth map $F\colon \mathbb{R}^n \to \mathbb{R}^n$. 
+A basic and common type of singularity is the fold.
+Informally, along a hypersurface $S$ of critical points, a fold map glues the two sides of $S$ together and sends them to 
+one side of the hypersurface $F(S)$.
+
+Fold can be locally modeld by $F(u,v)=(u, v^2)$ where $u\in \mathbb{R}^{n-1}, v\in \mathbb{R}$. 
+
+
+Intuitvely, fold is tame. 
+In fact, let $D=\{(u,v)\colon v\geq 0\}$. 
+Then $F$ is a homeomorphism from $D$ to $D$ and a diffeomorphism from $\operatorname{int}(D)$ to $\operatorname{int}(D)$. 
+
+However, $F$ can never be a diffeomorphism from $D$ to $D$ as manifolds with boundaries. 
+
+In textbook terms, diffeomorphisms require the Jacobian induces isomorphisms between tangent spaces, even at the boundary. 
+Since the boundary of $D$ consists of singular points, $JF$ fails to do so. 
+
+This is also visible by looking at the behavior in the normal direction. 
+Notice that for any one-dimensional map $f$, 
+to achieve the folding while remaining smooth, $f'(0)$ must be zero. 
+I.e., at $0$ the normal component of the tangent space must collapse. 
+Thus, the inverse of $f$, if it exists, can be differentiable at $0$. 
